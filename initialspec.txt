@@ -1,0 +1,10 @@
+TimeSlots: 30                        # Number of iterations to compute
+TimeStep: 0.5                         # Unit time step for each iteration
+Horizon: 1                            # 0 => no process communication, 1 => adjacent process communication (and so on)
+GridSize: 50                         # for a 200x200 cell grid
+NumberOfSmallParticles: 6000       # Number of small (gas) particles
+SmallParticleMass: 0.0001             # in mass units
+SmallParticleRadius: 0.0001           # in cell-size units
+NumberOfLargeParticles: 0             # Number of large (planet) particles following
+2 2 25 25                      # radius mass locx locy
+4 10 15 30.1                          # radius mass locx locy
